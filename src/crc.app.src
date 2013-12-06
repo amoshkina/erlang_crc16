@@ -1,0 +1,12 @@
+{application, crc,
+ [
+  {description, "Erlang NIF wrapper for CRC16 algorithm."},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []},
+  {modules, [crc]}
+ ]}.
